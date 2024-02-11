@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container-fluid {
+    margin-top: 50px;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.navbar {
+    background-color: #333;
+}
+
+.btn-outline-light {
+    color: #fff;
+    border-color: #fff;
+}
+
+.btn-outline-light.active,
+.btn-outline-light:hover {
+    background-color: #fff;
+    color: #333;
+}
+
+.btn-success {
+    background-color: #4caf50;
+    color: #fff;
+    border-color: #4caf50;
+}
+
+.btn-success:hover {
+    background-color: #45a049;
+    border-color: #45a049;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: #fff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    color: #fff;
+    border-color: #dc3545;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+    border-color: #c82333;
+}
+
+.mb-4 {
+    margin-bottom: 20px;
+}
+
+.mt-5 {
+    margin-top: 50px;
+}
+
+.dropzone {
+    border: 2px dashed #cccccc;
+    border-radius: 4px;
+    padding: 20px;
+    cursor: pointer;
+    background-color: #ffffff;
+}
+
+.text-muted {
+    margin: 10px 0;
+    color: #555;
+}
+
+.file-info-container {
+    margin-top: 20px;
+}
+
+.file-info {
+    margin: 10px 0;
+}
+
+/* Larger Screen Styles */
+@media (min-width: 992px) {
+    .container {
+        width: 80%;
+    }
+}

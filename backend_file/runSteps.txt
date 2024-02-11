@@ -1,0 +1,5 @@
+g++ encode.cpp huffman.cpp -o encode
+./encode input.txt compressed.txt
+
+g++ decode.cpp huffman.cpp -o decode
+./decode compressed.txt output.txt 
