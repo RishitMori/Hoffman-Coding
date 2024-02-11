@@ -1,4 +1,4 @@
-File Compressing Website
+**File Compressing Website
 Welcome to the File Compressing Website – your go-to platform for efficient and secure file compression. This project combines the latest technologies, utilizing React for the frontend, Node.js and Express for server-side logic, and Firebase for authentication and database management. The standout feature is our custom Huffman Coding algorithm, meticulously designed in C++, ensuring optimal compression and decompression.
 
 Features
